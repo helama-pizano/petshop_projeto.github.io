@@ -1,0 +1,155 @@
+:root {
+  --cor-fundo: #F9EDDE;
+  --cor-principal: #8F422C;
+  --cor-texto: #64190B;
+  --cor-segundaria: #ba8961;
+  --cor-terciaria: #d5bb9c
+}
+
+
+*
+{
+ margin: 0;
+ padding: 0;
+}
+
+header{
+    background-color: var(--cor-principal);
+    color: var(--cor-fundo);
+    height: 120px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main{
+    margin: 9%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+body {
+    background-color: var(--cor-fundo);
+    background-image: url(img/background_index.png);
+    background-position-x: -25px;
+    z-index: -1;
+    background-size: 90%;
+}
+
+.page_header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 9%;
+    margin-right: 9%;
+    height: 70%;
+    width: 100%;
+}
+
+.logo_header{
+    height: 100%;
+}
+
+.user_icon{
+    height: 100%;
+    align-content: center;
+}
+
+
+.nav_bar{
+    background-color: var(--cor-terciaria);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 9%;
+    padding-right: 9%;
+    width: 100%;
+    height: 30%;
+}
+
+.redirect{
+    text-decoration: none;
+    color: var(--cor-texto);
+}
+.redirect:visited{
+    color: var(--cor-principal);
+}
+
+.sobre_nos{
+    border-radius: 30px;
+    margin-top: 1%;
+    margin-bottom: 3%;
+    padding: 2%;
+    background-color: var(--cor-terciaria);
+    color: var(--cor-texto);
+}
+
+.catalogo_produtos{
+    color: var(--cor-texto);
+}
+
+.img_box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 100%;
+    height: 55%;
+    
+}
+
+.class_product_row{
+    background-color: var(--cor-segundaria);
+    margin-top: 5%;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+}
+
+.product_box{
+    position: relative;
+    background-color: var(--cor-fundo);
+    border-radius: 8px;
+    margin-left: 3%;
+    padding: 10px;
+    width: 25%;
+    height: 70%;
+    max-width: 175px;
+}
+
+.img_produtos{
+    height: 90%;
+    width: fit-content;
+}
+
+.title{
+    position: relative;
+    font-size: xx-large;
+    font-weight: bolder;
+    margin-left: 3%;
+    margin-top: 2%;
+    width: 100%;
+    height: 5%;
+}
+
+.product_name{
+    display: block;
+    width: 100%;
+    font-weight: bolder;
+}
+
+
+section#produtos a{
+    color: var(--cor-texto);
+    text-decoration: none;
+}
+
+footer{
+    height: 200px;
+    margin-top: 7%;
+    text-align: center;
+    align-content: end;
+    background-color: var(--cor-principal);
+    color: var(--cor-fundo);
+}
