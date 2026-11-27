@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="principal.css">
+    <!-- <link rel="stylesheet" href="../style/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="../style/principal.css">
     <title>MiiAuuu Petshop</title>
 
 </head>
@@ -11,9 +12,9 @@
 
   <header>
     <div class="page_header">
-      <img class="logo_header" src="img/logo_transp.png" alt="logo da loja Mii Auuu petshop">
+      <img class="logo_header" src="../img/logo_transp.png" alt="logo da loja Mii Auuu petshop">
       <div class="user_icon">
-        <a href="cadastrar_Usuário.html"><img src="img/user_icon.png" alt="Ícone do usuário"></a>
+        <a href="cadastrar_Usuário.html"><img src="../img/user_icon.png" alt="Ícone do usuário"></a>
       </div>
     </div>
       <nav class="nav_bar">
@@ -24,13 +25,22 @@
   </header>
 
   <main>
+    
+        <div id="servicos" class="services_box">
+          <div class="img_ad_box">
+            <a href="banho_e_tosa.html"><img src="../img/imagem-banho2.png" class="img_ad" alt="Cachorros tomando banho"></a>
+          </div>
+            <a href="banho_e_tosa.html" class="ad_title">Serviço de banho e tosa</a>
+            <p>O cuidado com o seu pet é nossa prioridade.Nossos funcionários realizam um banho completo no seu pet e tosagem mínima<br>
+              apenas nas regiões necessárias para manter a higiene do animal. Poderá pedir a tosagem completa se for de sua prefêrencia. Veja a descrição completa do serviço: <a href="banho_e_tosa.html">Aqui!</a></p>
+        </div>
+
     <section id="about" class="sobre_nos">
       <p class="title">Quem Somos</p>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga animi possimus reiciendis rem in ipsam, molestiae assumenda, sequi mollitia, vitae dignissimos aut. Dolorum vero tenetur non a est necessitatibus quasi! <br>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique beatae quia omnis eos ullam, maiores ea officiis culpa pariatur maxime ipsam aliquid velit dolorum nihil voluptatem sunt neque dolor autem. <br>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde laudantium harum, obcaecati eveniet voluptas possimus aliquam labore tenetur iusto consectetur qui ullam debitis sint maiores, necessitatibus et asperiores ipsa magni? <br>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error aliquam autem necessitatibus impedit! Molestiae explicabo, labore fugiat consectetur, commodi aliquid autem amet doloribus dolor non mollitia quod aperiam quas distinctio.</p>
-
     </section>
 
     <section id="produtos">
@@ -41,8 +51,8 @@
               <p id="roupas" class="title">Acessórios</p>
 
               <div class="product_box">
-                  <div class="img_box">
-                    <img src="img/foto-roupaBanana2.jpg" class="img_produtos" alt="Cão pequeno com roupa de azul decorada com bananas 79 e 90">
+                  <div class="product_img_box">
+                    <img src="../img/foto-roupaBanana2.jpg" class="img_produtos" alt="Cão pequeno com roupa azul decorada com bananas">
                   </div>
                   <a href="pagina_produto.html" class="product_name">Roupa azul bananas cães filhotes/pequeno porte</a>
                   <small> Blusa quente para inverno, apenas raças pequenas ou filhotes.</small>
@@ -50,8 +60,8 @@
               </div>
 
               <div class="product_box">
-                  <div class="img_box">
-                    <img src="img/arranhador-casinha.jpg" class="img_produtos" alt="">
+                  <div class="product_img_box">
+                    <img src="../img/arranhador-casinha.jpg" class="img_produtos" alt="">
                   </div>
                   <a href="pagina_produto.html" class="product_name">Arranhador de gatos com toca.</a>
                   <small>torre vertical com uma toca e um andar, para um gato.</small>
@@ -63,8 +73,8 @@
               <p class="title">Rações</p>
 
               <div class="product_box">
-                <div class="img_box">
-                  <img src="img/racao-pedigree.jpg" class="img_produtos" alt="">
+                <div class="product_img_box">
+                  <img src="../img/racao-pedigree.jpg" class="img_produtos" alt="">
                 </div>
                 <a href="pagina_produto.html" class="product_name">Ração pedigree 900g Carne, Frango e cereais, cão adulto</a>
                 <small>Ração para cães adultos sabor carne, frango e cereais, sem corantes artificiais.</small>
@@ -72,8 +82,8 @@
               </div>
 
               <div class="product_box">
-                <div class="img_box">
-                <img src="img/racao-golden15kg.jpg" class="img_produtos" alt="">
+                <div class="product_img_box">
+                <img src="../img/racao-golden15kg.jpg" class="img_produtos" alt="">
               </div>
                 <a href="pagina_produto.html" class="product_name">Ração golden 15Kg carne e arroz</a>
                 <small> Ração para cães de pequeno porte adultos sabor carne e arroz, sem corantes artificiais.
@@ -85,8 +95,8 @@
             <h3 class="title">Produtos Higiênicos</h3>
 
             <div class="product_box">
-              <div class="img_box">
-                <img src="img/areia-woodtech.jpg" class="img_produtos" alt="">
+              <div class="product_img_box">
+                <img src="../img/areia-woodtech.jpg" class="img_produtos" alt="">
               </div>
               <a href="pagina_produto.html" class="product_name">Areia Higiênica para gatos Woodtech 15KG</a>
               <small>Granulado Higiênico para gatos, biodegradável 100% natural</small>
@@ -94,8 +104,8 @@
             </div>
 
             <div class="product_box">
-              <div class="img_box">
-                  <img src="img/banho-a-seco.jpg" class="img_produtos" alt="Produto de banho a seco pratipet 47 e 90">
+              <div class="product_img_box">
+                  <img src="../img/banho-a-seco.jpg" class="img_produtos" alt="Produto de banho a seco pratipet 47 e 90">
                 </div>
               <a href="pagina_produto.html" class="product_name">Banho a seco cães e gato Pratipet</a>
               <small>Conjunto de banho a seco para gatos e cães, filhotes ou adultos</small>
@@ -105,14 +115,6 @@
           
         </div>
       </section>
-
-        <div id="servicos">
-          <h1>Serviços da nossa equipe</h1>
-          <a href="banho_e_tosa.html"><img src="img/imagem-banho.png" width="25%" alt=""></a>
-          <h2><a href="banho_e_tosa.html">Serviço de banho e tosa</a></h2>
-          <p>O cuidado com o seu pet é nossa prioridade.Nossos funcionários realizam um banho completo no seu pet e tosagem mínima<br>
-            apenas nas regiões necessárias para manter a higiene do animal. Poderá pedir a tosagem completa se for de sua prefêrencia. Veja a descrição completa do serviço: <a href="banho_e_tosa.html">Aqui!</a></p>
-        </div>
   </main>
   
   <footer id="contato">
