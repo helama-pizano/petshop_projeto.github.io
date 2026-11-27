@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../style/cadastro.css">
+    <title>Cadastre-se! | MiiAuuu petshop</title>
+</head>
+<body>
+     <header>
+    <div class="page_header">
+        <div class="back_icon">
+            <a href="login.html"><img src="../img/back_icon1.png" alt="Ícone do usuário"></a>
+        </div>
+        <img class="logo_header" src="../img/logo_transp.png" alt="logo da loja Mii Auuu petshop">
+    </div>
+  </header>
+
+  <main>
+    <form action="login.html">
+        <h1>Cadastre-se!</h1>
+        <fieldset class="login_fields">
+            <div class="data_field">
+                <label for="name">Nome:</label>
+                <input type="text" name="name" id="name" placeholder="Insira seu nome completo" required>
+            </div>
+            <div class="data_field">
+                <label for="cpf">CPF:</label>
+                <input type="number" name="cpf" id="cpf" placeholder="000.111.222-33">
+            </div>
+            <div class="text_field">
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="SeuEmail@dominio.com" required>
+            </div>
+            <label for="genero">Gênero:</label>
+            <fieldset class="radio_gen" id="genero">
+                <div class="radio_gen_item">
+                    <input type="radio" name="genero" value="Masculino" id="mas">
+                    <label for="mas"> Masculino</label>
+                </div>
+
+                <div class="radio_gen_item">
+                    <input type="radio" name="genero" value="Feminino" id="fem">
+                    <label for="fem">Feminino</label>
+                </div>
+
+                <div class="radio_gen_item">
+                    <input type="radio" name="genero" value="none" id="none" checked>
+                    <label for="none">Prefiro não informar</label>
+                </div>
+            </fieldset>
+            <div class="data_field">
+                <label for="dataNasc">Data de nascimento:</label>
+                <input type="date" id="dataNasc" name="dataNascimento">
+            </div>
+        </fieldset>
+
+        <input type="submit" value="Enviar">
+    </form>
+  </main>
+    
+</body>
+</html>

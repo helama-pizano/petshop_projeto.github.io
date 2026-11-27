@@ -1,0 +1,95 @@
+:root {
+  --cor-fundo: #F9EDDE;
+  --cor-principal: #8F422C;
+  --cor-texto: #64190B;
+  --cor-segundaria: #ba8961;
+  --cor-terciaria: #d5bb9c;
+}
+
+*
+{
+ margin: 0;
+ padding: 0;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header{
+    background-color: var(--cor-principal);
+    color: var(--cor-fundo);
+    height: 120px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main{
+    margin: 30%;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: var(--cor-texto);
+}
+
+body {
+    background-color: var(--cor-fundo);
+    z-index: -1;
+}
+
+form{
+    width: 100%;
+    padding: 3% 0 3% 0;
+    margin-top: 5%;
+    background-color: var(--cor-terciaria);
+    border-radius: 30px;
+    text-align: center;
+}
+
+h1 {
+    font-weight: bolder;
+    color: var(--cor-texto);
+}
+
+label{
+    font-weight: 600;
+}
+
+
+.page_header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 9%;
+    margin-right: 9%;
+    height: 70%;
+    width: 100%;
+}
+
+.logo_header{
+    height: 100%;
+}
+
+.back_icon{
+    height: 100%;
+    align-content: center;
+}
+
+.login_fields{
+    display: flex;
+    flex-direction: column;
+    margin: 0 25% 0 25%;
+}
+
+.data_field{
+    margin: 10px 0 10px 0;
+}
+
+.radio_gen{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.radio_gen_item{
+    margin-left: 2%;
+    display: flex;
+    align-content: center;
+}
